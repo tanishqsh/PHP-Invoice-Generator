@@ -1,0 +1,142 @@
+head, body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.maincontainer{
+  background-color: #FFF;
+  height: 100%;
+  width: 100%;
+  align-content: center;
+}
+
+.header{
+  background-color: #FFF;
+  padding-left: 0px;
+  padding-right: 2px;
+  width: 100%;
+  float: none;
+  height: auto;
+}
+
+.detailTable{
+  width: 35%;
+  height: auto;
+  background-color: #FFF;
+  opacity: 0.7;
+  padding-left: 8px;
+  color: #000;
+  font-weight:300;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+}
+
+.detailTable2{
+  width: 60%;
+  height: auto;
+  background-color: #FFF;
+  opacity: 0.7;
+  padding-left: 8px;
+  color: #000;
+  font-weight:300;
+  float: right;
+  font-family: 'Roboto', sans-serif;
+}
+
+.detailbox{
+  width: 20%;
+  height: auto;
+  background-color: #FFF;
+  opacity: 0.7;
+  padding-left: 0px;
+  color: #000;
+  font-weight:300;
+  float: left;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.invoice{
+  font-family: 'Roboto', sans-serif;
+  float: right;
+  margin-right: 20px;
+  margin-top: 0%;
+}
+
+
+.tablecontainer{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 40px;
+  background: #FFF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  opacity: 0.9;
+  width: 100%;
+  float: left;
+  height: auto;
+}
+
+.TableHeading{
+  font-family: 'Roboto', sans-serif;
+  background-color: #1976D2;
+  color: #FFF;
+  width: 100%;
+  margin-bottom: 3px;
+}
+
+.TableHeading2{
+  font-family: 'Roboto', sans-serif;
+  background-color: #f6f6f6;
+  color: #000;
+  width: 100%;
+}
+
+
+.finalsubs {
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+    height: auto;
+    float: right;
+    text-align: -webkit-right;
+    text-align-last: end;
+}
+
+.footer {
+  width: 100%;
+  text-align: -webkit-center;
+  font-family: 'Roboto', sans-serif;
+  bottom: 0;
+  position: fixed;
+  margin-bottom: 0px;
+  height: auto;
+  }
+
+
+.finalContainer{
+  width: 100%;
+  align-items: center;
+  align-content: center;
+}
+.ButtonContainer{
+  width: 100%;
+  background-color: #FFF;
+  height: auto;
+  align-content: center;
+  align-items: center;
+  position: fixed;
+  text-align: -webkit-center;
+  bottom: 0;
+}
+  .pButton{
+    background-color: #2196F3;
+    color: #FFF;
+    outline: none;
+    text-align: -webkit-center;
+    border: 0px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding: 10px;
+  }

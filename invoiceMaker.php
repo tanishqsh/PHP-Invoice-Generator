@@ -1,6 +1,6 @@
 <html>
 <head>
-  <link rel="stylesheet" href="invoice.css" type="text/css">
+  <link rel="stylesheet" href="css/invoice.css" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
   <meta name="Description" content="Binary Caves Invoice Generator Coded By Tanishq Sharma">
   <meta name="keywords" content="Invoice Genetor, Binary Caves, Binary Caves Web Development, Custom Invoice Generator">
@@ -22,7 +22,7 @@
 <body>
   <div class="maincontainer" id="maincontainer">
   <div class="header">
-    <img src="bpl.png" width="100px" height="100px" alt="BinaryCaves Logo">
+    <img src="images/bpl.png" width="100px" height="100px" alt="BinaryCaves Logo">
     <a class="invoice";> Invoice Number: <?php echo $_GET['invoiceNumber']; ?></a>
     <hr>
 

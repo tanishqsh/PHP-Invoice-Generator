@@ -1,0 +1,60 @@
+head, body{
+  margin:0;
+  padding: 0;
+}
+
+.maincontainer{
+  width: 100%;;
+  height: 100%;
+  text-align: center;
+  background-color: #000;
+}
+
+.imagecontainer{
+  padding-top: 100px;
+}
+
+.fieldContainer{}
+
+.inputLayout{
+padding: 20px;
+border: none;
+border-radius: 50%;
+background-color: #FFF;
+cursor: copy;
+opacity: 0.1;
+width: 40px;
+height: 40px;
+-webkit-transition: opacity 1s, width 1s, border-radius 1s, height 1s, background-color 1s;
+}
+
+
+
+.inputLayout:focus{
+  border-radius: 50%;
+  outline: none;
+  background-color: #FFF;
+  opacity: 1;
+  width: 50px;
+  height: 50px;
+}
+
+.submitButton{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 10px;
+  background: #FFF;
+  opacity: 0.5;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  -webkit-transition: opacity 1s, width 1s, border-radius 1s, height 1s, background-color 1s;
+}
+
+.submitButton:hover{
+  opacity: 0.8;
+  background-color: #39FF14;
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px #9ecaed;
+}

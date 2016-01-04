@@ -7,15 +7,24 @@
   <link rel="stylesheet" href="css/binaryStyle.css" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
   <meta name="Description" content="Binary Caves Invoice Generator Coded By Tanishq Sharma">
+  <link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
   <meta name="keywords" content="Invoice Genetor, Binary Caves, Binary Caves Web Development, Custom Invoice Generator">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Invoice Generator - Binary Caves </title>
 </head>
 
 <body>
   <div class="holder">
+    <div class="header">
+      <div class="headerblock">
+      </div>
+      <div class="textblock">
+        <h1> Invoice Generator </h1>
+      </div>
+    </div>
     <div class="innerHolder">
-    <h1> Invoice Form - Binary Caves </h1>
-    <form action="invoiceMaker.php" method= "GET" class="binaryForm">
+    <div class="formcontainer">
+    <form action="generated/invoice.php" method= "POST" class="binaryForm">
       <div class="fieldContainer">
       First Name:
       <input name="FirstName" placeholder="Tanishq" class="inputLayout">
@@ -52,9 +61,10 @@ Bill Amount
         Address --- :
       <input name="ClientAdd" placeholder="H1/1103, Phase 2, Bhoomi Park" class="inputLayout">
     </div>
-    <button type="submit" class="submitButton"> Submit </button>
+    <button type="submit" class="submitButton">  </button>
     </form>
   </div>
+</div>
   </div>
 
   <div class="footer">

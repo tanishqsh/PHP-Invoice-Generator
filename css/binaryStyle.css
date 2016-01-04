@@ -17,23 +17,54 @@ body{
   padding: 20px;
 }
 
+.header {
+  position: relative;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+.headerblock{
+  background-color: #000;
+  opacity: 0.3;
+  padding: 60px;
+  width: auto;
+  color: #FFF;
+  position: relative;
+}
+
+.textblock{
+  text-align: center;
+  width: 100%;
+  font-family: 'Candal', sans-serif;
+  position: absolute;
+  color: #FFF;
+  top: 0;
+}
 
 .submitButton{
-  width: 75px;
-  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
   padding: 10px;
   background: #FFF;
-  font-family: 'Roboto', sans-serif;
-  color: #000;
-  opacity: 0.7;
+  opacity: 0.5;
   outline: none;
   border: none;
   margin-top: 10px;
+  border: 2px solid #dadada;
+  -webkit-transition: opacity 2s, width 1s, border-radius 1s, height 1s, background-color 2s;
+}
+
+.submitButton:hover{
+  opacity: 0.8;
+  background-color: #39FF14;
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px #9ecaed;
 }
 
 
 .inputLayout{
-
   border-radius: 2px;
   width: 150px;
   background: #FFF;
@@ -55,19 +86,30 @@ body{
 .inputLayout:focus{
   border-radius: 2px;
   width: 220px;
-  opacity: 0.9;
+  opacity: 0.95;
   height:30px;
   padding: 10px;
-  color: #000;
+  color: #FF0000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.formcontainer{
+  z-index: 9999;
+  width: inherit;
 }
 
 .innerHolder{
-  background-color: #000
-  width: 200px;
+  width: auto;
+  position: relative;
+  z-index: 99;
+  padding: 30px;
+  text-align: center;
   color: #FFF;
 }
 
 .binaryForm{
+  width: auto;
   padding: 15px;
 }
 
